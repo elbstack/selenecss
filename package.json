@@ -1,0 +1,57 @@
+{
+  "name": "selenecss",
+  "version": "0.0.1",
+  "description": "CSS Regression Testing for Selenium Webdriver",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbstack/selenecss.git"
+  },
+  "keywords": [
+    "selenium",
+    "webdriver",
+    "selene",
+    "webdrivercss",
+    "regression",
+    "test",
+    "testing",
+    "phantomcss",
+    "visual",
+    "design"
+  ],
+  "author": "Christian Eichinger <christian@elbstack.com> (http://elbstack.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elbstack/selenecss/issues"
+  },
+  "homepage": "https://github.com/elbstack/selenecss#readme",
+  "dependencies": {
+    "async": "^0.9.0",
+    "deepmerge": "^0.2.7",
+    "fs-extra": "^0.18.2",
+    "glob": "^5.0.5",
+    "node-resemble-js": "0.0.4",
+    "q": "^1.4.1",
+    "request": "^2.55.0",
+    "rimraf": "^2.3.2",
+    "tar": "^2.1.0",
+    "tar.gz": "^1.0.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "chai": "^2.3.0",
+    "coveralls": "~2.11.2",
+    "istanbul": "^0.3.13",
+    "mocha": "^2.2.4",
+    "mocha-istanbul": "^0.2.0",
+    "nock": "^1.7.1",
+    "selene": "^1.1.1",
+    "unexpected": "^10.15.0",
+    "unexpected-webdriver": "^1.0.1"
+  }
+}
