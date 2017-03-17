@@ -33,7 +33,7 @@
     "deepmerge": "^0.2.7",
     "fs-extra": "^0.18.2",
     "glob": "^5.0.5",
-    "node-resemble-js": "0.0.4",
+    "node-resemble-js": "0.2.0",
     "q": "^1.4.1",
     "request": "^2.55.0",
     "rimraf": "^2.3.2",
